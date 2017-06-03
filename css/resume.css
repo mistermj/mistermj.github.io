@@ -1,0 +1,122 @@
+
+.intro-block {
+	background: url(../images/6.jpg);
+	background-size:cover;
+	padding: 20px 40px 230px 40px; 
+	}
+	
+.Shade {
+		box-shadow: 0px 0px 5px black;
+	}
+.marketing-panel {
+	background: url(../images/Copysecond.jpg);
+	background-size: cover;
+	padding: 0px 35px 0px 35px;
+	font-family: monospace;
+}
+.sub-heading {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-weight: 700;
+	font-size: 26px;
+	padding: 20px 5px 25px 5px;
+	color: #FFFFFF;
+}
+.heading {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-weight: 700;
+	font-size: 28px;
+	text-shadow: 0px 0.3px 2px black;
+	padding-top: 30px;
+}
+.tpad {
+	margin-top:120px;
+	padding: 5px 5px 5px 5px;
+}
+.rubber {
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+.lil-shade {
+	box-shadow: 0px 0px 0.5px 2px black;
+}
+.neat {
+	padding-top: 20px;
+	color: black;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 0px 0px 3px floralwhite;
+}
+.new {
+	padding: 70px 10px 30px 10px;
+	margin-top: 10px;
+}
+.padbot {
+	padding-bottom: 30px;
+}
+.padtop {
+	padding-top: 30px;
+}
+.things-done {
+	background: url(../images/denim.jpg);
+	padding: 10px 40px 20px 40px;
+}
+button{
+	color: blanchedalmond;
+	text-shadow: 0px 0px 3px black;
+}
+.shadow{
+	text-shadow: 0px 0px 1px white;
+}
+.about-me {
+	padding:  20px 40px 10px 40px;
+	background: url('../images/rain1.jpg');
+}
+.one {
+	color: white;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+.one_title {
+	color: white;
+	font-weight: 700;
+	padding-left: 5px;
+}
+
+.title {
+	color: white;
+	font-weight: 700;
+	padding-left: 5px;
+	font-size: 20px;
+}
+.margin-left {
+	padding-left: 65px;
+}
+.text-size {
+	padding-top: 15px;
+	font-size: 18px;
+}
+@media ( min-width: 250px ) {
+.marketing-panel {
+	padding-bottom: 130px;
+}
+}
+
+.right-text {
+	font-size: 20px;
+	padding:  0px 10px 10px 0px;
+	color: white;
+}
+
+.left-text {
+	font-size: 20px;
+	padding:  0px 10px 10px 0px;
+	color: white;
+}
+hr {
+	color: white;
+}
+li {
+	list-style: none;
+}
