@@ -58,6 +58,10 @@
 .padtop {
 	padding-top: 30px;
 }
+.padtop1 {
+	margin-top: 50px;
+	padding-top: 50px;
+}
 .things-done {
 	background: url('../images/denim.jpg');
 	padding: 10px 40px 20px 40px;
@@ -98,9 +102,9 @@ button{
 	font-size: 18px;
 }
 @media ( min-width: 250px ) {
-.marketing-panel {
-	padding-bottom: 130px;
-}
+	.marketing-panel {
+		padding-bottom: 130px;
+	}
 }
 
 .right-text {
@@ -123,7 +127,10 @@ li {
 .someInfo {
 	text-shadow: 1px 1px 1px black;
 	font-size: 20px;
-	color: black;
-	font-family: 'Raleway', sans-serif;
-
+	color: lightgray;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 25px;
+}
+.titleTwo  {
+	font-family: 'Orbitron', sans-serif;
 }
