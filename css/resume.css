@@ -1,6 +1,17 @@
-
+.navbar1  {
+	background-color: #0D0C0C;
+	color: aliceblue;
+	/*text-shadow: 1px 2px 2px white;*/
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 56px;
+	/*box-shadow: 0px 1px 2px 1px black;*/
+}
+.buttonOne  {
+	opacity: 0.7;
+	padding: 4px 5px 4px 5px;
+}
 .intro-block {
-	background: url('../images/6_comp.jpg');
+	background: url('../images/back.jpg');
 	background-size:cover;
 	padding: 20px 40px 200px 40px; 
 	}
@@ -11,7 +22,7 @@
 .marketing-panel {
 	background: url('../images/Copysecond_comp2.jpg');
 	background-size: cover;
-	padding: 0px 35px 0px 35px;
+	padding: 0px 35px -10px 35px;
 	font-family: monospace;
 }
 .sub-heading {
