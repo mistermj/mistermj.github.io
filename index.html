@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Resume</title>
-	<link rel="shortcut icon" href="images/GPS-32.png" />   
+	<link rel="shortcut icon" href="images/favicon.ico" />   
     <link rel="stylesheet" href="css/resume.css" />	
 	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />    
     <link rel="stylesheet" href="css/semantic.css" media="screen" />
@@ -64,7 +64,7 @@
 
    		   		<div class="row">
    		   			<div class="col-sm-12">
-   		   				<p class="text-center neat">Website Developer</p>
+   		   				<p class="text-center neat" id="typed-strings">Website Developer</p>
    		   			</div>
    		   		</div>
    		   </div>
@@ -302,9 +302,21 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/semantic.js"></script>
 <script src="js/bootstrap.js"></script>
-
+<script src="js/typed.min.js"></script>
 <script type="text/javascript">
     
+	var typed = new Typed('#typed-strings', {
+		strings: [' Hello ^2000' , " ^1000 Hey! You Found Me !"],
+		backDelay: 1200,
+		backSpeed: 80,
+		typeSpeed: 125,
+		//shuffle: false,
+		loop: true,
+		loopCount: 1000
+		//smartBackspace: true
+	});
+	
+	
     function toggleSidebar() {
     	$('.ui.sidebar').sidebar('toggle');
     }
