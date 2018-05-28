@@ -1,10 +1,10 @@
-.navbar1  {
+.dark-navbar  {
 	background-color: #0D0C0C;
 	color: aliceblue;
 	/*text-shadow: 1px 2px 2px white;*/
 	font-family: 'Cinzel Decorative', cursive;
-	font-size: 56px;
-	padding: 80px;
+	font-size: 36px;
+	padding: 20px;
 	/*box-shadow: 0px 1px 2px 1px black;*/
 }
 .buttonOne  {
