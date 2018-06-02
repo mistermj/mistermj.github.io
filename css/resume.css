@@ -5,6 +5,7 @@
 	font-family: 'Cinzel Decorative', cursive;
 	font-size: 24px;
 	padding: 10px;
+	opacity: 0.5;
 	/*box-shadow: 0px 1px 2px 1px black;*/
 }
 .buttonOne  {
@@ -14,8 +15,7 @@
 .intro-panel {
 	background: url('../images/blur.jpg') no-repeat;
 	background-size:cover;
-	padding: 0px 40px 10px 40px;
-	min-height: 500px;
+	min-height: 560px;
 	min-width: auto;
 }
 .laravel  {
@@ -73,7 +73,7 @@
 	padding-bottom: 30px;
 }
 .padtop {
-	padding-top: 30px;
+	padding-top: 60px;
 }
 .padtop1 {
 	margin-top: 50px;
