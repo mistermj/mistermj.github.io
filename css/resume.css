@@ -1,12 +1,13 @@
 .dark-navbar  {
 	background-color: #0D0C0C;
 	color: aliceblue;
-	/*text-shadow: 1px 2px 2px white;*/
 	font-family: 'Cinzel Decorative', cursive;
 	font-size: 24px;
 	padding: 10px;
 	opacity: 0.5;
-	/*box-shadow: 0px 1px 2px 1px black;*/
+}
+.cinzel  {
+	font-family: 'Cinzel Decorative', cursive;	
 }
 .buttonOne  {
 	opacity: 0.7;

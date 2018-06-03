@@ -72,13 +72,23 @@
 <div class="marketing-panel">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col">
-
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4 cinzel padtop padbot" style="color: white; font-size: 28px;">
+				<center>About Me</center>
+				<hr style="color: white; background-color: white;" />
 			</div>
-			<div class="col">
+			<div class="col-sm-4"></div>			
+		</div>
+
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
 				
 			</div>
+			<div class="col-sm-3"></div>
+			
 		</div>
+
 	</div>
 </div>
 
@@ -224,7 +234,7 @@
 </div>
 
 
-<script src="js/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
 <script src="js/typed.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.all.min.js"></script>
@@ -242,28 +252,12 @@
 	});
 	
 	
-    function toggleSidebar() {
-    	$('.ui.sidebar').sidebar('toggle');
-    }
-    
-	setInterval(function() {
-	    $('.button1').addClass("animated pulse");
-	    $('.button1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 'animated pulse');
-    }, 1000);
-	
-	$(document).ready(function() {
-		$('img').css('-webkit-animation-delay', '3s');
-		$('img').addClass("animated pulse").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
-		$('img').css('animation-duration', '7s');
-	});
-	$(document).ready(function(){
-		$('.gmail').click(function(){
+    $(document).ready(function(){
+		$('gmail').click(function(){
 			
-			swal({
-				type: 'info',
-				title: 'My Email Address',
-				text: 'nhawk1100@gmail.com',
-			})
+			swal(
+				 'nhawk1100@gmail.com'
+			)
 
 		})
 	})
