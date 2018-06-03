@@ -27,7 +27,7 @@
 		box-shadow: 0px 0px 5px black;
 	}
 .marketing-panel {
-	background: url('../images/denim.jpg');
+	background-color: #37474F;
 	background-size: cover;
 	padding: 0px 35px -10px 35px;
 	font-family: monospace;
@@ -81,7 +81,7 @@
 	padding-top: 50px;
 }
 .things-done {
-	background-color: #2a3a3f;
+	background: url('../images/fire1.jpeg');
 	
 	padding: 10px 40px 20px 40px;
 }
@@ -94,7 +94,7 @@ button{
 }
 .about-me {
 	padding:  20px 40px 10px 40px;
-	background-color: #18161F;
+	background-color: #212121;
 }
 .one {
 	color: white;
