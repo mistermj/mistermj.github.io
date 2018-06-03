@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.min.css" />
 
 
 <style type="text/css">
@@ -56,14 +57,14 @@
 				<div class="col-sm-3"></div>
 			</div>
 
-			<div class="row justify-content-center" style="color: white;">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</button></div>
-				<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</button></div>
-				<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-google"></i>&nbsp;&nbsp;Gmail</button></div>
-				<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i  class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</button></div>
-				<div class="col-sm-2"></div>				
-			</div>
+		<div class="row justify-content-center" style="color: white;">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</button></div>
+			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</button></div>
+			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary gmail"><i class="fa fa-google"></i>&nbsp;&nbsp;Gmail</button></div>
+			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i  class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</button></div>
+			<div class="col-sm-2"></div>				
+		</div>
 		</div>
 	</div>
 
@@ -196,11 +197,7 @@
 
 			</div>
 
-
 		</div>
-
-
-
 	
 	</div>
 
@@ -230,6 +227,7 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
 <script src="js/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.all.min.js"></script>
 <script type="text/javascript">
     
 	var typed = new Typed('#typed-strings', {
@@ -258,7 +256,18 @@
 		$('img').addClass("animated pulse").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 		$('img').css('animation-duration', '7s');
 	});
-	
+	$(document).ready(function(){
+		$('.gmail').click(function(){
+			
+			swal({
+				type: 'info',
+				title: 'My Email Address',
+				text: 'nhawk1100@gmail.com',
+			})
+
+		})
+	})
+
 </script>
 </body>
 </html>
