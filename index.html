@@ -50,10 +50,10 @@
 
 		<div class="row justify-content-center" style="color: white;">
 			<div class="col-sm-2"></div>
-			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</button></div>
-			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</button></div>
+			<div class="col-sm-2 padbot"><a href="https://github.com/mistermj" target="_blank"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</button></a></div>
+			<div class="col-sm-2 padbot"><a href="https://www.linkedin.com/in/abdul-mujeeb-2b798211b/" target="_blank"><button type="button" class="btn btn-outline-secondary"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn</button></a></div>
 			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary gmail"><i class="fa fa-google"></i>&nbsp;&nbsp;Gmail</button></div>
-			<div class="col-sm-2 padbot"><button type="button" class="btn btn-outline-secondary"><i  class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</button></div>
+			<div class="col-sm-2 padbot"><a href="https://www.facebook.com/conner.conner.520" target="_blank"><button type="button" class="btn btn-outline-secondary"><i  class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</button></a></div>
 			<div class="col-sm-2"></div>				
 		</div>
 		</div>
@@ -227,7 +227,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
-<script src="js/typed.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.all.min.js"></script>
 <script type="text/javascript">
     
@@ -239,12 +238,16 @@
     $(document).ready(function(){
 		$('.gmail').click(function(){
 			
-			swal(
-				 'nhawk1100@gmail.com'
-			)
+			swal({
+				 title: 'nhawk1100@gmail.com',
+				 animation: false,
+				 customClass: 'animated bounceIn'
+			})
 
 		})
-	})
+	});
+
+
 
 </script>
 </body>
