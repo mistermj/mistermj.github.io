@@ -6,12 +6,8 @@
 	padding: 10px;
 	opacity: 0.5;
 }
-.typedString {
-	min-height: 200px;
-}
-.cinzel  {
-	font-family: 'Cinzel Decorative', cursive;	
-}
+.typedString { min-height: 200px; }
+.cinzel  { font-family: 'Cinzel Decorative', cursive;	 }
 .buttonOne  {
 	opacity: 0.7;
 	padding: 4px 5px 4px 5px;
@@ -22,14 +18,10 @@
 	min-height: 560px;
 	min-width: auto;
 }
-.laravel  {
-	font-family: 'Raleway', sans-serif;
-}
+.laravel  {font-family: 'Raleway', sans-serif;}
 
-.Shade {
-		box-shadow: 0px 0px 5px black;
-	}
-	
+.Shade { box-shadow: 0px 0px 5px black;}
+
 .marketing-panel {
 	background-color: #455A64;
 	background-size: cover;
@@ -43,46 +35,15 @@
 	padding: 20px 5px 25px 5px;
 	color: #FFFFFF;
 }
-.heading {
-	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
-	font-weight: 700;
-	font-size: 28px;
-	text-shadow: 0px 0.3px 2px black;
-	padding-top: 30px;
-}
 .tpad {
 	margin-top:120px;
 	padding: 5px 5px 5px 5px;
-}
-.rubber {
-	animation-duration: 3s;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
-}
-.lil-shade {
-	box-shadow: 0px 0px 0.5px 2px black;
-}
-.neat {
-	padding-top: 40px;
-	color: black;
-	font-size: 48px;
-	font-family: 'Boogaloo', cursive;
-	font-weight: 700;
-	
-}
-.new {
-	padding: 70px 10px 30px 10px;
-	margin-top: 10px;
 }
 .padbot {
 	padding-bottom: 30px;
 }
 .padtop {
 	padding-top: 60px;
-}
-.padtop1 {
-	margin-top: 50px;
-	padding-top: 50px;
 }
 .things-done {
 	background: url('../images/fire1.jpeg');
@@ -92,9 +53,6 @@
 button{
 	color: blanchedalmond;
 	text-shadow: 0px 0px 3px black;
-}
-.shadow{
-	text-shadow: 0px 0px 1px white;
 }
 .about-me {
 	padding:  20px 40px 10px 40px;
@@ -109,12 +67,6 @@ button{
 	color: white;
 	font-weight: 700;
 	padding-left: 5px;
-}
-.title {
-	color: white;
-	font-weight: 700;
-	padding-left: 5px;
-	font-size: 20px;
 }
 .margin-left { padding-left: 65px; }
 .text-size { padding-top: 35px; }
@@ -135,12 +87,9 @@ li { list-style: none; }
 	text-shadow: 1px 1px 1px black;
 	font-size: 20px;
 	color: whitesmoke;
-	font-family: 'Ubuntu', sans-serif;
 	line-height: 25px;
 }
-.titleTwo  { font-family: 'Orbitron', sans-serif; }
 .more-about-me  {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
 	color: white;
 }
