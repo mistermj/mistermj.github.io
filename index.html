@@ -13,15 +13,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.min.css" />
 
 
-<style type="text/css">
-	button {
-		animation-duration: 5s;
-		animation-delay: 0s;
-		animation-iteration-count: 10000;
-	}
-
-</style>
-
 
 </head>
 <body>
@@ -74,7 +65,7 @@
 		<div class="row">
 			<div class="col-sm-4"></div>
 			<div class="col-sm-4 cinzel padtop padbot" style="color: white; font-size: 28px;">
-				<center>About Me</center>
+				<center><span class="typedString">About Me</span></center>
 				<hr style="color: white; background-color: white;" />
 			</div>
 			<div class="col-sm-4"></div>			
@@ -159,7 +150,7 @@
 		<div class="row">
 			<div class="col-sm-12 mx-auto">
 				<center>
-					<p class="text-center laravel" style="font-size: 48px; color: azure">About Me</p>					
+					<p class="text-center laravel" style="font-size: 48px; color: azure">Contact Me</p>					
 				</center>
 			<hr style="box-shadow: 0px 1px 1px white;"/>
 			</div>
@@ -175,7 +166,7 @@
 						<hr  style="box-shadow: 0px 1px 0.5px white;"/>
 						<dl class="one">
 							<dt><li><a href="https://www.facebook.com/conner.conner.520"><i class="fa fa-facebook-square height padbot"></i>&nbsp; Facebook</a></li></dt>
-							<dt><li><a href="#"><i class="fa fa-twitter-square height padbot"></i>&nbsp;twitter</a></li></dt>
+							<dt><li><a href="https://twitter.com/KingZeusOfSouth"><i class="fa fa-twitter-square height padbot"></i>&nbsp;twitter</a></li></dt>
 							<dt><li><a href="https://github.com/mujeebishaque"><i class="fa fa-linkedin height padbot"></i>&nbsp; LinkedIn</a></li></dt>
 						</dl>
 			</div>
@@ -193,7 +184,7 @@
 			</div>
 
 
-			<div class="col-sm-4 padtop more-about-me">
+			<div class="col-sm-4 more-about-me">
 				<h4 class="text-center">
 					More About Me
 				</h4>
@@ -219,7 +210,7 @@
 	<div class="row">
 		
 		<div class="col-sm-6 left-text">
-		<p class="pull-left cinzel">All rights reserved &copy; 2018</p>
+		<p class="pull-left cinzel">All rights reserved &copy; <span id="year"></span></p>
 		</div>
 
 		<div class="col-sm-6 right-text">
@@ -240,20 +231,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.21.1/sweetalert2.all.min.js"></script>
 <script type="text/javascript">
     
-	var typed = new Typed('#typed-strings', {
-		strings: [' Hello ^2000' , " ^1000 Hey! You Found Me !"],
-		backDelay: 1200,
-		backSpeed: 80,
-		typeSpeed: 125,
-		//shuffle: false,
-		loop: true,
-		loopCount: 1000
-		//smartBackspace: true
-	});
+	year = new Date().getFullYear();
 	
+	document.getElementById('year').innerHTML = year;
+
 	
     $(document).ready(function(){
-		$('gmail').click(function(){
+		$('.gmail').click(function(){
 			
 			swal(
 				 'nhawk1100@gmail.com'
