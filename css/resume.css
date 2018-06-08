@@ -6,6 +6,7 @@
 	padding: 10px;
 	opacity: 0.5;
 }
+.white { color: white; }
 .delay {animation-duration: 3s;}
 .typedString { min-height: 200px; }
 .cinzel  { font-family: 'Cinzel Decorative', cursive;	 }
@@ -21,13 +22,6 @@
 	background-size: cover;
 	padding: 0px 35px -10px 35px;
 	font-family: monospace;
-}
-.sub-heading {
-	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
-	font-weight: 700;
-	font-size: 26px;
-	padding: 20px 5px 25px 5px;
-	color: #FFFFFF;
 }
 .padbot { padding-bottom: 30px; }
 .padtop { padding-top: 60px; }
