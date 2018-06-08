@@ -6,12 +6,9 @@
 	padding: 10px;
 	opacity: 0.5;
 }
+.delay {animation-duration: 3s;}
 .typedString { min-height: 200px; }
 .cinzel  { font-family: 'Cinzel Decorative', cursive;	 }
-.buttonOne  {
-	opacity: 0.7;
-	padding: 4px 5px 4px 5px;
-}
 .intro-panel {
 	background: url('../images/blur.jpg') no-repeat;
 	background-size:cover;
@@ -19,9 +16,6 @@
 	min-width: auto;
 }
 .laravel  {font-family: 'Raleway', sans-serif;}
-
-.Shade { box-shadow: 0px 0px 5px black;}
-
 .marketing-panel {
 	background-color: #455A64;
 	background-size: cover;
@@ -35,19 +29,10 @@
 	padding: 20px 5px 25px 5px;
 	color: #FFFFFF;
 }
-.tpad {
-	margin-top:120px;
-	padding: 5px 5px 5px 5px;
-}
-.padbot {
-	padding-bottom: 30px;
-}
-.padtop {
-	padding-top: 60px;
-}
+.padbot { padding-bottom: 30px; }
+.padtop { padding-top: 60px; }
 .things-done {
 	background: url('../images/fire1.jpeg');
-	
 	padding: 10px 40px 20px 40px;
 }
 button{
@@ -89,10 +74,7 @@ li { list-style: none; }
 	color: whitesmoke;
 	line-height: 25px;
 }
-.more-about-me  {
-	font-size: 16px;
-	color: white;
-}
+.more-about-me  { font-size: 16px; color: white; }
 @media ( min-width: 250px ) {
 	.marketing-panel {
 		padding-bottom: 130px;
