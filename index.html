@@ -26,7 +26,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<button type="button" class="btn btn-outline-secondary" style="text-align: left;">
+						<button type="button" class="btn btn-outline-secondary" style="text-align: left;" 
+						onclick="toggleSidebar()">
 								<span class="fa fa-bars" aria-hidden="true"></span>
 						</button>
 				
@@ -62,21 +63,14 @@
 		</div>
 	</div>
 
-
-<!-- <div class="ui left vertical menu inverted sidebar">
-		<a class="item">
-		  <i class="home icon"><strong>My Interests</strong></i>
-		  Watching Youtube Videos
-		</a>
-		<a class="item">
-		  <i class="block layout icon"></i>
-		  Reading Articles
-		</a>
-		<a class="item">
-		  <i class="smile icon"></i>
-		  Trying Different Languages
-		</a>
-</div> -->
+	
+	<div class="ui sidebar inverted vertical menu" style="color: white; background-color: black;">
+		<br />
+		<a class="item"><strong><center>My Interests</center></strong></a><hr />
+		<a class="item"> 1 - Reading Tech Related Articles</a><hr />
+		<a class="item"> 2 - Learning New Stuff</a><hr />
+		<a class="item"> 3 - Watching Movies</a>
+	</div>
 
 
 <div class="marketing-panel">
@@ -269,8 +263,10 @@
 			}
 		}
 	})
-
-	$('.ui.sidebar').sidebar('toggle');
+	
+	function toggleSidebar() {
+    	$('.ui.sidebar').sidebar('toggle');
+    }
 
 </script>
 </body>
